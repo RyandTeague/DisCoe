@@ -1,32 +1,67 @@
-/*Header*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-header {
-    background-color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-a {
-    text-decoration: none;
+body{
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* Header*/
+
+header {
+    background-color: #3a3a3a;
+    height: 100px;
+    border-bottom: 2px solid #b5b5b5;
+}
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
 }
 
 #logo {
-    color:black ;
-    font-size: 200%;
-    margin: ;
+    float: left;
+    font-size: 40px;
+    margin-left: 30px;
+    color: white;
+    line-height: 75px;
 }
 
 #menu {
-    text-transform: uppercase;
-    color: inherit;
-    letter-spacing: 2px;
+    font-size: 110%;
+    letter-spacing: 4px;
+    line-height: 101px;
 }
 
-#logo, #menu {
-    line-height: 5px;
-}
 
 #menu li {
-    list-style-type: none;
     float: right;
+    list-style-type: none;
     margin-right: 30px;
-    
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    background-color: #b5b5b5;
+    padding-top: 41px;
+    padding-bottom: 39px;
+}
+
+.active {
+    background-color: #b5b5b5;
+    padding-top: 41px;
+    padding-bottom: 39px;
+    border-bottom: 2px solid #3a3a3a;
 }
