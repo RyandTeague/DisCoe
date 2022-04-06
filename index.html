@@ -35,10 +35,12 @@
     </header>
     <section id="hero-outer">
         <div id="hero-image">
-            <h2>Discoe</h2>
+            <div class="herotext">
+            <h2>Dis<span id="coe">coe</span></h2>
             <p>3rd-5th June</p>
             <p>Tickets on sale:</p>
             <p id="demo"></p>
+        </div>
         </div>
     </section>
     <section>Amenities</section>
@@ -47,9 +49,9 @@
 
     <!-- Font awesome script-->
     <script src="https://kit.fontawesome.com/6fa23d678e.js" crossorigin="anonymous"></script>
-    <!-- Count down Script (https://www.w3schools.com/howto/howto_js_countdown.asp)    "May 5, 2022 09:00:00"-->
+    <!-- Count down Script (https://www.w3schools.com/howto/howto_js_countdown.asp)-->
     <script>
-        var countDownDate = new Date("April 6, 2022 15:28:00").getTime();
+        var countDownDate = new Date("May 5, 2022 09:00:00").getTime();
         var x = setInterval(function() {
           var now = new Date().getTime();
           var distance = countDownDate - now;
