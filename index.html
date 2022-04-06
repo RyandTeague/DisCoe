@@ -34,7 +34,12 @@
         </nav>
     </header>
     <section id="hero-outer">
-        <div id="hero-image"></div>
+        <div id="hero-image">
+            <h2>Discoe</h2>
+            <p>3rd-5th June</p>
+            <p>Tickets on sale:</p>
+            <p id="demo"></p>
+        </div>
     </section>
     <section>Amenities</section>
     <section>Map</section>
@@ -42,5 +47,25 @@
 
     <!-- Font awesome script-->
     <script src="https://kit.fontawesome.com/6fa23d678e.js" crossorigin="anonymous"></script>
+    <!-- Count down Script (https://www.w3schools.com/howto/howto_js_countdown.asp)    "May 5, 2022 09:00:00"-->
+    <script>
+        var countDownDate = new Date("April 6, 2022 15:28:00").getTime();
+        var x = setInterval(function() {
+          var now = new Date().getTime();
+          var distance = countDownDate - now;
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "NOW";
+          }
+        }, 1000);
+        </script>
 </body>
 </html>
