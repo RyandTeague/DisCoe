@@ -29,10 +29,10 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 30px;
     color: white;
-    line-height: 75px;
+    line-height: 90px;
 }
 
 #menu {
@@ -65,3 +65,19 @@ h1, h2 {
     padding-bottom: 39px;
     border-bottom: 2px solid #3a3a3a;
 }
+
+/* Hero Image*/
+
+#hero-outer{
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/*Image from: https://www.pexels.com/photo/people-gathering-near-stage-with-fireworks-1306791/*/
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url(../images/redstage.jpg) no-repeat bottom center;
