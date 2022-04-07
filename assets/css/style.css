@@ -27,6 +27,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #FFFAFA;
+    font-size: 100%;
 }
 
 #logo {
@@ -108,7 +109,7 @@ animation-fill-mode: forwards;
     font-size: 300%;
     text-transform: uppercase;
     font-weight: bold;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -133,4 +134,27 @@ animation-fill-mode: forwards;
     color: #005eb8;
     padding-top: 3%;
     position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling for Map*/
+
+iframe {
+    height: 300px;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
