@@ -161,18 +161,39 @@ animation-fill-mode: forwards;
 }
 
 
+/* Amenities section*/
 
+.amenities-container {
+    display: grid;
+    grid: 150px / auto auto;
+  }
 
+  .text-box {
+    align-items: center;
+    border-radius: 0;
+    line-height: 1.1;
+    margin: 0 auto;
+    min-height: 150px;
+    padding: 20px 20px 50px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
 
+.text-box p {
+    width: 50%;
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
+.amenities-container div {
+    width: 50%;
+    height: 50%;
+    float: left;
+}  
 
 /* Styling for Map*/
 
