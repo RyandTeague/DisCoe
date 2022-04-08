@@ -6,14 +6,6 @@
     border: none;
 }
 
-body{
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-    letter-spacing: 4px;
-    background-color: #f5f5f5;
-}
-
 /* Header*/
 
 header {
@@ -111,7 +103,7 @@ h1, h2 {
     width: 100%;
     background: url(../images/redstage.jpg) no-repeat bottom center;
 
-    /*Animation for unblur*/
+    /*Animation for color*/
 
 animation-name:hero-blur;
 animation-duration: 8s;
@@ -163,10 +155,24 @@ animation-fill-mode: forwards;
 
 /* Amenities section*/
 
-.amenities-container {
-    display: grid;
-    grid: 150px / auto auto;
-  }
+#amenities h2{
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 300%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#amenities-container {
+    display: -ms-inline-grid;
+    grid-template-columns: 40% 40%;
+    padding: 5px;
+    column-gap: 5%;
+    margin: 5px 10px;
+    align-items: center;
+}
+
 
   .text-box {
     align-items: center;
@@ -182,26 +188,55 @@ animation-fill-mode: forwards;
     float: left;
     width: 50%;
     height: 50%;
+    color: #f5f5f5;
 }
 
-.text-box p {
-    width: 50%;
-    text-align: center;
+/* Image from https://www.pexels.com/photo/person-playing-sun-burst-electric-bass-guitar-in-bokeh-photography-96380/*/
+
+#music {
+    background-image: url(../images/Guitar.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
-.amenities-container div {
-    width: 50%;
-    height: 50%;
-    float: left;
-}  
+/* Image from https://www.pexels.com/photo/photo-of-juicy-burger-on-wooden-surface-1639565/*/
+
+#food {
+    background-image: url(../images/Burger.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* Image from https://www.pexels.com/photo/person-playing-sun-burst-electric-bass-guitar-in-bokeh-photography-96380/*/
+
+#activities {
+    background-image: url(../images/Guitar.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* Image from https://www.pexels.com/photo/person-playing-sun-burst-electric-bass-guitar-in-bokeh-photography-96380/*/
+
+#camping {
+    background-image: url(../images/Guitar.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
 
 /* Styling for Map*/
 
 iframe {
     height: 300px;
     width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 10%
 }
 
 /* Footer */
@@ -230,4 +265,14 @@ footer {
 
 .socials i:hover {
     color: black;
+}
+
+/* Background Scanlines*/
+body{
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    letter-spacing: 4px;
+    background-color: #3a3a3a;
+    background-image: repeating-linear-gradient(0deg,transparent,rgba(128,128,128, 50%) 0,transparent 1px,transparent 0.3%);}
 }
