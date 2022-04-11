@@ -22,6 +22,16 @@ h1, h2 {
     font-size: 100%;
 }
 
+h3 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #FFFAFA;
+    font-size: 150%;
+    padding-bottom: 5%; 
+    padding-top: 5%;
+}
+
 #logo {
     float: left;
     font-size: 400%;
@@ -300,7 +310,7 @@ footer {
 
 .socials i {
     font-size: 160%;
-    padding: 10% 5%; 
+    padding: 10px 5%; 
     margin: 1%;
     color: #FFFAFA;
 }
@@ -321,7 +331,12 @@ body{
 
 /* Gallery */
 
-#gallery {
+.gallery-heading {
+    font-size: 200%;
+    padding: 5%;
+}
+
+.gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
@@ -329,12 +344,17 @@ body{
     row-gap: 0px;
 }
 
-#gallery img {
-    width: 24%;
+.gallery img {
+    width: 100%;
     height: auto;
     line-height: 0;
+    display: block;
 }
 
+#top-gallery {
+    
+    border-bottom: 5px solid #f5f5f5;
+}
 
 /* Contact us page*/
 
