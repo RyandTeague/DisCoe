@@ -159,7 +159,7 @@ animation-fill-mode: forwards;
     color: #f5f5f5;
     text-align: center;
     font-size: 300%;
-    padding 30px;
+    padding: 30px;
     width: 300px;
     margin-top: 80px;
     margin-bottom: 40px;
@@ -300,7 +300,7 @@ footer {
 
 .socials i {
     font-size: 160%;
-    padding: 10$ 5%; 
+    padding: 10% 5%; 
     margin: 1%;
     color: #FFFAFA;
 }
@@ -316,115 +316,61 @@ body{
     color: #3a3a3a;
     letter-spacing: 4px;
     background-color: #3a3a3a;
-    background-image: repeating-linear-gradient(0deg,transparent,rgba(128,128,128, 50%) 0,transparent 1px,transparent 0.3%);}
+    background-image: repeating-linear-gradient(0deg,transparent,rgba(128,128,128, 50%) 0,transparent 1px,transparent 0.3%);
 }
 
 /* Gallery */
 
-.gallery {
+#gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
+    row-gap: 0px;
 }
 
-.gallery > img {
-    max-width: 24.9%;
+#gallery img {
+    width: 24%;
     height: auto;
+    line-height: 0;
 }
 
-/* code for lightbox*/
 
-/*
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
+/* Contact us page*/
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
     width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
-  }
-  
-  .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 1200px;
-  }
-  
-  .close {
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #999;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .mySlides {
-    display: none;
-  }
-  
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  .numbertext {
-    color: #f5f5f5;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  .caption-container {
-    text-align: center;
-    background-color: black;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  img.demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  } */
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
