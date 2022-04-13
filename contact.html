@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Discoe Festival</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
@@ -19,11 +21,11 @@
         </a>
         <nav>
             <ul id="menu">
-                 <li>
-                    <a href="gallery.html">2021 Highlights</a>
+                <li>
+                    <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="active">Info + Mailing List</a>
+                    <a href="contact.html" class="active">Mailing List</a>
                 </li>
                 <li>
                     <a href="lineup.html">Line Up + Tickets</a></li>
@@ -33,13 +35,6 @@
             </ul>
 
             <select id="dropdown">
-                <option value="" selected="selected">Menu</option>
-                
-                    <option value="gallery.html">2021 Highlights</option>
-                    <option value="contact.html">Info + Mailing List</option>
-                    <option value="lineup.html">Line Up + Tickets</option>
-                    <option value="index.html">Home</option>
-                
             </select>
         </nav>
     </header>
@@ -49,7 +44,7 @@
     </div>
 
     <section id="contactform">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form" id="mailinglist">
+        <form class="signup-form" id="mailinglist">
             <h2>Enter details below to be alerted for tickets going on sale! <i class="fas fa-ticket"></i></h2>
             <label for="fname">Full Name:</label>
             <input id="fname" name="full_name" type="text" required class="text-input">
@@ -59,34 +54,35 @@
             <br>
             <label for="birthday">Date of Birth: </label>
             <input type="date" id="birthday" name="birthday" max="2004-06-03" required class="text-input">
-            <br>           
+            <br>
             <label for="ticket">
                 Which ticket are you interested in?
             </label>
             <select id="ticket" name="ticket" required>
-                <option name="fri">Friday</option>
-                <option name="sat">Saturday</option>
-                <option name="sun">Sunday</option>
-                <option name="fri-sat">Friday-Saturday Standard Camping</option>
-                <option name="sat-sun">Saturday-Sunday Standard Camping</option>
-                <option name="fri-sun">Friday-Sunday Standard Camping</option>
-                <option name="fri-satvip">Friday-Saturday VIP Camping</option>
-                <option name="fri-satvip">Saturday-Sunday VIP Camping</option>
-                <option name="fri-sunvip">Friday-Sunday VIP Camping</option>
+                <option value="">Options</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+                <option value="sun">Sunday</option>
+                <option value="fri-sat">Friday-Saturday Standard Camping</option>
+                <option value="sat-sun">Saturday-Sunday Standard Camping</option>
+                <option value="fri-sun">Friday-Sunday Standard Camping</option>
+                <option value="fri-satvip">Friday-Saturday VIP Camping</option>
+                <option value="sat-sunvip">Saturday-Sunday VIP Camping</option>
+                <option value="fri-sunvip">Friday-Sunday VIP Camping</option>
             </select>
 
             <br>
             <input class="join-button" type="submit" value="Join!">
-        
+
         </form>
         <div class="contact">
             <h2>Contact Us!</h2>
             <br>
-            <h4>E-mail</h4>
+            <h3>E-mail</h3>
             <p>Information@Discoe.co.uk</p>
-            <h4>Telephone</h4>
+            <h3>Telephone</h3>
             <p>+01 234 5678</p>
-            <h4>Address</h4>
+            <h3>Address</h3>
             <p>123 Festival Road
                 <br>
                 Edinburgh
@@ -102,25 +98,53 @@
     <footer>
         <ul class="socials">
             <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.Twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.Twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
             </li>
             <li>
-                <a href="https://www.Youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.Youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
             </li>
             <li>
-                <a href="https://www.Instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.Instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://www.tiktok.com" target="_blank" rel="noopener" aria-label="Visit our TikTok page (opens in a new tab)"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.tiktok.com" target="_blank" rel="noopener"
+                    aria-label="Visit our TikTok page (opens in a new tab)"><i class="fab fa-tiktok"></i></a>
             </li>
             <li>
-                <a href="contact.html#mailinglist" aria-label="Join our mailing list!"><i class="fas fa-envelope"></i></a>
+                <a href="contact.html#mailinglist" aria-label="Join our mailing list!"><i
+                        class="fas fa-envelope"></i></a>
             </li>
         </ul>
     </footer>
     <!-- Font awesome script-->
     <script src="https://kit.fontawesome.com/6fa23d678e.js" crossorigin="anonymous"></script>
+    <!-- Script to make dropdown menu work: -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $("<option />", {
+            "selected": "selected",
+            "value": "",
+            "text": "Go to..."
+        }).appendTo("nav select");
+
+        $("nav a").each(function () {
+            var el = $(this);
+            $("<option />", {
+                "value": el.attr("href"),
+                "text": el.text()
+            }).appendTo("nav select");
+        });
+
+        $("nav select").change(function () {
+            window.location = $(this).find("option:selected").val();
+        });
+    </script>
 </body>
