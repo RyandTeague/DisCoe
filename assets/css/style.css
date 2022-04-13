@@ -68,6 +68,7 @@ h3 {
     background-color: #b5b5b5;
     padding-top: 41px;
     padding-bottom: 39px;
+    padding left: ;
     color: #3a3a3a;
 }
 
@@ -77,9 +78,35 @@ h3 {
     padding-bottom: 39px;
     border-bottom: 2px solid #3a3a3a;
     color: #3a3a3a;
+} 
+
+/*Dropdown menu for smaller screens*/
+
+#dropdown {
+    font-size: 110%;
+    letter-spacing: 4px;
+    position: relative;
+    width: 20%;
+    height: 30px;
+    float: right;
+    margin-top: 35px;
+    text-transform: uppercase;
 }
 
-/* Ticket button */
+nav select {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    nav ul     { 
+        display: none; 
+    }
+
+    nav select {
+        display: inline-block;
+    }
+  } */
+
 
 #ticketbutton {
     bottom: 15px;
