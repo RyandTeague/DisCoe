@@ -699,6 +699,10 @@ select:hover {
     .gallery {
         column-count: 3;
     }
+
+    #ticketbutton {
+        display: none;
+    }
 }
 
 @media (max-width: 736px) {
@@ -863,5 +867,12 @@ select:hover {
     
     .gallery {
         column-count: 2;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .gallery {
+        column-count: 1;
     }
 }
