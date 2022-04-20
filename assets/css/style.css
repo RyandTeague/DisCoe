@@ -371,17 +371,25 @@ body {
 
 /* Gallery */
 
+.title {
+    width: 80%;
+    margin: 5% auto 2.5% auto;
+}
+
 .gallery-heading {
+    margin: auto;
     font-size: 200%;
-    padding: 5%;
+    width: 100%;
+    border-bottom: 2px solid #f5f5f5;
 }
 
 .gallery {
     clear: both;
-    line-height: 0;
     column-count: 4;
     column-gap: 0px;
     row-gap: 0px;
+    width: 80%;
+    margin: auto;
 }
 
 .gallery img {
@@ -389,12 +397,13 @@ body {
     height: auto;
     line-height: 0;
     display: block;
+    box-sizing: border-box;
 }
 
-#top-gallery {
-
-    border-bottom: 5px solid #f5f5f5;
+.gallery img:hover {
+    border: 1px solid white;
 }
+
 
 /* Contact us page*/
 
@@ -408,30 +417,40 @@ body {
 }
 
 .signup-form {
-    margin: 5% 10% 0 0;
+    margin-left: auto;
+    margin-right: auto;
     color: #f5f5f5;
     background-image: linear-gradient(rgba(58, 58, 58, 1), rgba(58, 58, 58, 0.3));
-    max-width: 50%;
+    width: 50%;
+    height: auto;
     position: relative;
     padding: 30px;
-    float: left;
     display: block;
+    top: 25%;
 }
 
 .contact {
-    margin: 5% 0 10% 0;
     color: #f5f5f5;
-    background-image: linear-gradient(rgba(58, 58, 58, 1), rgba(58, 58, 58, 0.3));
-    max-width: 50%;
+    width: 80%;
     position: relative;
     padding: 30px;
-    float: right;
     display: block;
+}
+
+.contact h2 {
+    font-size: 200%;
+    border-bottom: 2px solid #f5f5f5;
+    width: 50%;
+}
+
+.hidden {
+    display: none;
 }
 
 .contact h3 {
     padding: 0;
     margin: 0;
+
 }
 
 
@@ -563,12 +582,12 @@ select:hover {
     margin-right: auto;
     text-decoration: none;
     color: white;
-    padding-top: 10%;
+    padding-top: 7.5%;
 }
 
-.ticketbox #envelope {
-    display: none;
+.ticketbox .envelope {
     font-size: 200%;
+    margin-bottom: 5px;
 }
 
 /* Image from:https://www.pexels.com/photo/people-at-concert-1105666/*/
@@ -677,33 +696,38 @@ select:hover {
         display: inline-block;
     }
 
-    .contact {
-        float: left;
-        bottom: 5%;
+    .gallery {
+        column-count: 3;
     }
 }
 
 @media (max-width: 736px) {
+
+    #logo {
+        font-size: 300%;
+    }
 
     #ticketbutton {
         display: none;
     }
 
     #day {
-        background-image: none;
-        overflow: visible;
-    }
-
-    #standard {
-        background: url(../images/camp.jpg) no-repeat bottom center;
         background-size: cover;
         width: 100%;
         overflow: visible;
+        height: 395px;
+    }
+
+    #standard {
+        background-size: cover;
+        width: 100%;
+        overflow: visible;
+        height: 395px;
     }
 
     #vip {
-        background-image: none;
         overflow: visible;
+        height: 395px;
     }
 
     .mail {
@@ -714,12 +738,16 @@ select:hover {
         display: contents;
     }
 
-    .border{
+    .border {
         border-right: none;
         border-bottom: 5px solid #b5b5b5;
     }
 
-    .ticketbox > div {
+    .ticketbox {
+        height: 450px;
+    }
+
+    .ticketbox>div {
         display: block;
         width: 100%;
         height: auto;
@@ -746,10 +774,37 @@ select:hover {
         display: block;
     }
 
-    #mapouter h3{
+    #mapouter h3 {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .lineuplist h3 {
+        font-size: 80%;
+    }
+
+    .lineuplist a {
+        font-size: 100%;
+        padding: 1px;
+    }
+
+    .lineuplist li {
+        padding: 1px;
+        display: block;
+    }
+
+    .lineuplist a:hover {
+        font-size: 120%;
+        font-weight: 500;
+        color: #3a3a3a;
+        background-color: #f5f5f5;
+        padding: 1px;
+        border: 1px groove rgba(58, 58, 58, 0.4);
+    }
+
+    .lineuplist span:after {
+        display: none;
     }
 
     #hero-image {
@@ -770,4 +825,43 @@ select:hover {
         margin-bottom: 2.5%;
     }
 
+    #contactform {
+        height: 450px;
+    }
+
+    #mailinglist {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .signup-form {
+        top: 5%;
+    }
+
+    .signup-form .shown {
+        display: none;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .contact {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        text-align: center;
+    }
+
+    .contact h2 {
+        width: auto;
+    }
+
+    label {
+        font-size: 80%;
+    }
+    
+    .gallery {
+        column-count: 2;
+    }
 }
