@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -361,7 +361,7 @@ footer {
 
 /* Background Scanlines*/
 body {
-    font-family: Lato, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
     letter-spacing: 4px;
@@ -530,7 +530,7 @@ select:hover {
 }
 
 #tickets h4 {
-    font-family: Lato, sans-serif;
+    font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
     color: #f5f5f5;
     font-size: 110%;
@@ -546,7 +546,7 @@ select:hover {
 }
 
 #tickets p {
-    font-family: Lato, sans-serif;
+    font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
     color: #f5f5f5;
     font-size: 100%;
@@ -658,7 +658,7 @@ select:hover {
 }
 
 .lineuplist a {
-    font-family: Lato, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #f5f5f5;
@@ -701,6 +701,10 @@ select:hover {
     }
 
     #ticketbutton {
+        display: none;
+    }
+
+    .ticketbox>div>p {
         display: none;
     }
 }
