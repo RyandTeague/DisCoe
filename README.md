@@ -125,3 +125,53 @@ The live link can be found here - https://ryandteague.github.io/DisCoe/index.htm
 
 ## Credits
 
+- To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+### Code
+
+Countdown: https://www.w3schools.com/howto/howto_js_countdown.asp
+
+Drop Down Menu: https://css-tricks.com/convert-menu-to-dropdown/
+
+### Maps
+
+https://www.google.co.uk/maps
+
+### Photos
+
+Pexels:
+
+    - https://www.pexels.com/photo/people-gathering-near-stage-with-fireworks-1306791/
+    - https://www.pexels.com/photo/person-playing-sun-burst-electric-bass-guitar-in-bokeh-photography-96380/
+    - https://www.pexels.com/photo/photo-of-juicy-burger-on-wooden-surface-1639565/
+    - https://www.pexels.com/photo/an-amusement-park-at-night-2884693/
+    - https://www.pexels.com/photo/silhouette-of-person-standing-near-camping-tent-2398220/
+    - https://www.pexels.com/photo/people-at-concert-1105666/
+    - https://www.pexels.com/photo/photo-of-pitched-dome-tents-overlooking-mountain-ranges-1687845/
+    - https://www.pexels.com/photo/photo-of-teepee-under-a-starry-sky-2666598/
+    - https://www.pexels.com/photo/people-having-a-concert-1190297/
+    - https://www.pexels.com/photo/people-standing-in-front-of-stage-1267317/
+    - https://pixabay.com/photos/concert-crowd-silhouette-3084876/
+    - https://www.pexels.com/photo/person-wearing-white-shirt-standing-120066/
+    - https://www.pexels.com/photo/photo-of-crowd-of-people-1167034/
+    - https://www.pexels.com/photo/two-women-embracing-surrounded-by-crowd-1537638/
+    - https://www.pexels.com/photo/photo-of-fireworks-during-nighttime-1259614/
+    - https://www.pexels.com/photo/stage-lights-2263435/
+    - https://www.pexels.com/photo/woman-facing-ferris-wheel-while-making-heart-hand-sign-1405422/
+    - https://www.pexels.com/photo/red-haired-fire-dancer-blowing-rod-with-flames-167386/
+    - https://www.pexels.com/photo/man-in-denim-long-sleeves-playing-acoustic-guitar-3776838/
+    - https://www.pexels.com/photo/woman-receives-her-takeaway-taco-food-8448070/
+    - https://www.pexels.com/photo/tents-on-green-grass-field-near-mountain-116104/
+    - https://www.pexels.com/photo/man-in-blue-denim-button-up-shirt-and-woman-in-white-floral-shirt-5779485/
+    - https://www.pexels.com/photo/man-in-blue-denim-button-up-shirt-and-woman-in-white-floral-shirt-5779485/
+    
+Unsplash:
+
+    - https://unsplash.com/photos/fpHiMJWjhH0/
+    - https://unsplash.com/photos/DSB1MZWsGco/
+
+
+
+### Icons
+
+https://fontawesome.com/
