@@ -286,7 +286,7 @@ nav select {
 /* Image from https://www.pexels.com/photo/photo-of-juicy-burger-on-wooden-surface-1639565/*/
 
 #food {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(../images/Burger.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(../images/burger.jpg);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -409,7 +409,7 @@ body {
 
 #contactform {
     clear: both;
-    background: url(../images/Contactstage.jpg);
+    background: url(../images/contactstage.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;

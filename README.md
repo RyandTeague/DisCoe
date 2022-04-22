@@ -13,7 +13,7 @@ The main aim for this project was to create a responsive website using CSS and H
  - Navigation Bar
     - Featured on all three pages, the navigation bar has a responsive design and through the home, line-up, mailing list and gallery text the user can navigate the website easily without having to use the 'back' button.
 
-![Heading of website with logo at the far left and then the navigation bar showing home, line-up and tickets, mailing list, and gallery](assets/images/Heading.PNG)
+![Heading of website with logo at the far left and then the navigation bar showing home, line-up and tickets, mailing list, and gallery](assets/images/heading.PNG)
 
  - Landing Page Image
     - Within the eyecathching image the name of the festival is displayed as well as specifically stating what it is, in case a user has found thmeselves on the page with no context. 
@@ -31,7 +31,7 @@ The main aim for this project was to create a responsive website using CSS and H
     - For the relvant topics there are links to take the user directly to where they can find out more information.
 
 
-![four text boxes with images as backgrounds with titles music, camping, food, and activities](assets/images/Amenities.PNG)
+![four text boxes with images as backgrounds with titles music, camping, food, and activities](assets/images/amenities.PNG)
 
  - Imbeded Map
     - The imbeded map here allows the user to click out directly to google maps to get directions for the festival.
@@ -42,7 +42,7 @@ The main aim for this project was to create a responsive website using CSS and H
     - The footer contains responsive links to different social media sites which is valuable as it encourages the user to stay connected to the festival's media.
     - There is also an envelope icon that will take the user to the mailing list form.
 
-![Footer of website showing various social media icons](assets/images/Footer.PNG)
+![Footer of website showing various social media icons](assets/images/footer.PNG)
 
  - Tickets Section
     - The tickets section displays the options for all the different types of tickets the user can purchase.
@@ -61,7 +61,7 @@ The main aim for this project was to create a responsive website using CSS and H
     - There is validation for the email address section and the earliest date available for selection when choosing birthdate ensures that the user is 18+ by the time of the festival.
     - There is also a dropdown selection to gather information on general interest on each type of ticket, which is valuable for knowing demand pre-sale.
 
-![Image of crowd at a concert with a grey box in front cont-aining a form to input details to be contacted](assets/images/Contact%20form.PNG)
+![Image of crowd at a concert with a grey box in front cont-aining a form to input details to be contacted](assets/images/contactform.PNG)
 
  - Gallery
     - The gallery allows the user to see highlights from the previous year seperated into highlights from the main festival area and highlights from the camping area.
