@@ -36,7 +36,7 @@ The main aim for this project was to create a responsive website using CSS and H
  - Imbeded Map
     - The imbeded map here allows the user to click out directly to google maps to get directions for the festival.
 
-![an imbeded map of glencoe](assets/images/Map.PNG)
+![an imbeded map of glencoe](assets/images/map.PNG)
 
  - Footer
     - The footer contains responsive links to different social media sites which is valuable as it encourages the user to stay connected to the festival's media.
@@ -54,7 +54,7 @@ The main aim for this project was to create a responsive website using CSS and H
  - Line up
     - The line up list is a responsive list that highlight the artist the cursor is over and every list item links to the artist's webpage in a new tab so that users can learn more about any name they dont recognise.
 
-![List of musical artists split into the three days of the festival](assets/images/Line-up.PNG)
+![List of musical artists split into the three days of the festival](assets/images/line-up.PNG)
 
  - Mailing list form
     - This page allows users to sign up to be notified when tickets are on sale.
